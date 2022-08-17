@@ -6,6 +6,8 @@ import searchRouter from './routes/search';
 
 config();
 
+if(!process.env.PORT) throw Error(`포트 번호 환경변수 설정을 해주세요.`)
+
 const app = express();
 
 app.use(express.json());
