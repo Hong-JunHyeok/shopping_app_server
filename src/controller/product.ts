@@ -41,6 +41,7 @@ const createProductController = (req: Request, res: Response) => {
       code: 200,
       message: '상품 등록에 성공하였습니다.',
       location: `/product?id=${generatedId}`,
+      product: newProduct
     });
   }, 1000);
 };

@@ -2,7 +2,7 @@
   "name": "shopping_app_server",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+    "start": "nodemon src/index.ts"
   },
   "dependencies": {
     "dotenv": "^16.0.1",
